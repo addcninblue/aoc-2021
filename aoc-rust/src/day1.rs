@@ -2,7 +2,7 @@
 use std::fs;
 
 pub fn solution() -> i32 {
-    let filename = "./src/day1_input";
+    let filename = "../inputs/day1";
     println!("In file {}", filename);
 
     let contents = fs::read_to_string(filename)
